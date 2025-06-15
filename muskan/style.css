@@ -1,0 +1,51 @@
+.card_info{
+    margin-right: 10px;
+    height: 340px;
+    width: 228px;
+    border-radius: 1rem;
+    background-color: rgba(56, 51, 51, 0.681);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 14px;
+    img{
+        border-radius: 1rem;
+        width: 100%;
+    }
+        h3{
+            color: white;
+        }
+        p{
+            color:rgba(255, 255, 255, 0.597);
+            
+        }
+    .icon{
+        transition: 0.2s;
+        button{
+            position: relative;
+            right:55px;
+            top: 175px;
+            height: 50px;
+            width: 50px;
+            background-color:rgb(55, 183, 55) ;
+            border-radius: 50%;
+            border: 2px solid rgb(55, 183, 55);
+        i{
+            font-size: 30px;
+            margin-left: 5px;
+        }
+    }
+}
+}
+.icon:hover{
+    button{
+        position: relative;
+        right:55px;
+        top: 175px;
+        height: 52px;
+        width: 52px;
+        background-color:rgb(55, 183, 55) ;
+        border-radius: 50%;
+        border: 2px solid rgb(55, 183, 55);
+    }
+}
